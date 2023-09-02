@@ -1,0 +1,18 @@
+@所有人 课程相关材料：
+1. 【腾讯文档】网络实验常见问题解答
+https://docs.qq.com/doc/DVXJTdkV1UFJFcWZz
+
+2.  eNSP相关软件及华为路由交换文档下载链接及说明
+https://bhpan.buaa.edu.cn:443/link/C990A141AAC2CD468C1185CBAFC7F629
+有效期限：2024-03-19 23:59
+访问密码：cTfb
+安装说明：
+1）. 本软件适合在win7和win10操作系统下安装。
+2）. 请依次安装virtualbox、Wireshark、eNSP、VLC media player软件。
+3）. 有问题请参考：“eNSP设备启动失败解决方案20191113.docx”
+
+3. 访问在线实验平台的vmware workstation Pro15软件，请参见ftp://10.111.1.29
+
+4.本科生“计算机网络实验”课程每周实验安排通知，请参见共享文档：
+【腾讯文档】2023年春季本科生计算机网络实验课程通知
+https://docs.qq.com/doc/DVUhuRW9hcElkU3Fo

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="FB669A64-71FE-4e1d-8B0A-5EA90C86E10D" name="PC1" poe="0" model="PC" settings=" -simpc_hostname pc1  -simpc_ip 192.168.0.250  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.0.1  -simpc_mac 54-89-98-F3-76-42  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-F3-76-42" com_port="0" bootmode="0" cx="721.000000" cy="298.000000" edit_left="748" edit_top="352">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="6BBF5FCA-85BC-49a4-AC70-D9BB99BB8A5C" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-5B-72-BC" com_port="2000" bootmode="0" cx="358.000000" cy="370.000000" edit_left="385" edit_top="424">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="6" />
+        </dev>
+        <dev id="6DB8219C-DC46-41f7-B927-78953C2FDF0A" name="LSW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-7B-11-C0" com_port="2003" bootmode="0" cx="479.000000" cy="228.000000" edit_left="506" edit_top="282">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="B849E505-4203-42e2-A88A-9696528D2FEC" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-5A-43-E1" com_port="2002" bootmode="0" cx="641.000000" cy="150.000000" edit_left="668" edit_top="204">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="B2B8164B-60E3-436b-B86B-09D1AA0091DB" name="Cloud1" poe="0" model="Cloud" settings="" system_mac="" com_port="0" bootmode="0" cx="251.500000" cy="204.500000" edit_left="294" edit_top="289">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="0" />
+                <interface sztype="Ethernet" interfacename="GE" count="5" />
+                <interface sztype="Serial" interfacename="Serial" count="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="1" remoteDisplayNo="5" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="2" remoteDisplayNo="5" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="3" remoteDisplayNo="5" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="4" remoteDisplayNo="5" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="5" remoteDisplayNo="1" adapterUid="\Device\NPF_{A4F6D1E7-E38F-42A7-A6D7-ACF855C15FCD}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="5" remoteDisplayNo="2" adapterUid="\Device\NPF_{A4F6D1E7-E38F-42A7-A6D7-ACF855C15FCD}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="5" remoteDisplayNo="3" adapterUid="\Device\NPF_{A4F6D1E7-E38F-42A7-A6D7-ACF855C15FCD}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="GE" displayNo="5" remoteDisplayNo="4" adapterUid="\Device\NPF_{A4F6D1E7-E38F-42A7-A6D7-ACF855C15FCD}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+            </slot>
+        </dev>
+        <dev id="12E2233E-DCB8-47ac-A963-1D885C7C84B8" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-DA-15-EE" com_port="2001" bootmode="0" cx="541.000000" cy="359.000000" edit_left="568" edit_top="413">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="6" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="6BBF5FCA-85BC-49a4-AC70-D9BB99BB8A5C" destDeviceID="B2B8164B-60E3-436b-B86B-09D1AA0091DB">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="0" srcBoundRect_X="362.601410" srcBoundRect_Y="360.079254" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="327.401459" tarBoundRect_Y="302.057343" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="12E2233E-DCB8-47ac-A963-1D885C7C84B8" destDeviceID="B2B8164B-60E3-436b-B86B-09D1AA0091DB">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="0" srcBoundRect_X="529.488342" srcBoundRect_Y="366.463074" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="3" tarBoundRectIsMoved="0" tarBoundRect_X="351.429749" tarBoundRect_Y="276.134064" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="6DB8219C-DC46-41f7-B927-78953C2FDF0A" destDeviceID="B2B8164B-60E3-436b-B86B-09D1AA0091DB">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="462.846954" srcBoundRect_Y="253.371582" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="358.351166" tarBoundRect_Y="249.428345" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="B849E505-4203-42e2-A88A-9696528D2FEC" destDeviceID="B2B8164B-60E3-436b-B86B-09D1AA0091DB">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="625.553284" srcBoundRect_Y="184.944565" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="357.297821" tarBoundRect_Y="235.152817" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="6BBF5FCA-85BC-49a4-AC70-D9BB99BB8A5C" destDeviceID="6DB8219C-DC46-41f7-B927-78953C2FDF0A">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="413.008179" srcBoundRect_Y="364.130890" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="477.991821" tarBoundRect_Y="287.869110" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="6BBF5FCA-85BC-49a4-AC70-D9BB99BB8A5C" destDeviceID="B849E505-4203-42e2-A88A-9696528D2FEC">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="419.093689" srcBoundRect_Y="370.496063" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="633.906311" tarBoundRect_Y="203.503922" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="12E2233E-DCB8-47ac-A963-1D885C7C84B8" destDeviceID="6DB8219C-DC46-41f7-B927-78953C2FDF0A">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="549.526428" srcBoundRect_Y="346.967133" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="524.473572" tarBoundRect_Y="294.032867" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="12E2233E-DCB8-47ac-A963-1D885C7C84B8" destDeviceID="B849E505-4203-42e2-A88A-9696528D2FEC">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="586.638489" srcBoundRect_Y="347.045593" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="649.361511" tarBoundRect_Y="215.954391" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="FB669A64-71FE-4e1d-8B0A-5EA90C86E10D" destDeviceID="B849E505-4203-42e2-A88A-9696528D2FEC">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="727.465393" srcBoundRect_Y="287.010956" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="3" tarBoundRectIsMoved="0" tarBoundRect_X="688.534607" tarBoundRect_Y="214.989044" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
